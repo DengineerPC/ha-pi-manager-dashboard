@@ -1,0 +1,29 @@
+name: Dashboard CI
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "37 2 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm test -- --run
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run build
+      - name: HACS validation
+        uses: hacs/action@22.5.0
+        with:
+          category: plugin

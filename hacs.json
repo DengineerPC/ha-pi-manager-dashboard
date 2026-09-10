@@ -1,0 +1,7 @@
+{
+  "name": "Pi Manager Dashboard",
+  "content_in_root": false,
+  "filename": "ha-pi-manager-dashboard.js",
+  "render_readme": true,
+  "homeassistant": "2026.5.0"
+}

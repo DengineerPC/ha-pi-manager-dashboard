@@ -1,0 +1,19 @@
+{
+  "name": "ha-pi-manager-dashboard",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && esbuild src/register.ts --bundle --format=esm --target=es2022 --outfile=dist/ha-pi-manager-dashboard.js",
+    "test": "vitest",
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}
