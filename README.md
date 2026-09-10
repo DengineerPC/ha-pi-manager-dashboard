@@ -12,17 +12,17 @@ Public HACS Dashboard repository:
 This package targets Home Assistant `2026.5.0` or newer and is optional. The
 backend integration works independently with standard Home Assistant cards.
 
-[Open Pi Manager Dashboard in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=DengineerPC&repository=ha-pi-manager-dashboard&category=dashboard)
+[Open Pi Manager Dashboard in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=DengineerPC&repository=ha-pi-manager-dashboard&category=plugin)
 
 ## Install through HACS
 
 Until the repository is included in HACS's default catalog, add it as a custom
 repository:
 
-1. Open **HACS → Frontend/Dashboard**.
+1. Open **HACS → Frontend**.
 2. Open the HACS menu and choose **Custom repositories**.
 3. Add `DengineerPC/ha-pi-manager-dashboard`.
-4. Select **Dashboard** as the category.
+4. Select **Plugin** as the category.
 5. Install **Pi Manager Dashboard**.
 6. If HACS has not registered the resource automatically, open
    **Settings → Dashboards → Resources** and add the following as a
