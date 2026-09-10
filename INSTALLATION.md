@@ -1,6 +1,6 @@
 # Pi Manager Dashboard Installation
 
-This guide covers the public `0.2.0` HACS Dashboard release for Home
+This guide covers the public `0.2.1` HACS Dashboard release for Home
 Assistant `2026.5.0` or newer. Install the companion Pi Manager Integration
 first and configure at least one host.
 
