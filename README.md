@@ -12,6 +12,8 @@ Public HACS Dashboard repository:
 This package targets Home Assistant `2026.5.0` or newer and is optional. The
 backend integration works independently with standard Home Assistant cards.
 
+[Open Pi Manager Dashboard in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=DengineerPC&repository=ha-pi-manager-dashboard&category=dashboard)
+
 ## Install through HACS
 
 Until the repository is included in HACS's default catalog, add it as a custom
