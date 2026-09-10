@@ -1,15 +1,15 @@
 # Pi Manager Dashboard Installation
 
-This guide covers the public `0.2.4` HACS Dashboard release for Home
+This guide covers the public `0.2.5` HACS Dashboard release for Home
 Assistant `2026.5.0` or newer. Install the companion Pi Manager Integration
 first and configure at least one host.
 
 ## HACS installation
 
-1. Open **HACS → Frontend/Dashboard**.
+1. Open **HACS → Frontend**.
 2. Open the HACS menu and choose **Custom repositories**.
 3. Add `DengineerPC/ha-pi-manager-dashboard`.
-4. Choose **Dashboard** as the repository category.
+4. Choose **Plugin** as the repository category.
 5. Install **Pi Manager Dashboard**.
 6. If HACS does not register the resource automatically, open
    **Settings → Dashboards → Resources** and add this URL with type
